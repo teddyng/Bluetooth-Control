@@ -1,4 +1,4 @@
-package teddyng.warmbuddy;
+package teddyng.bluetoothcontrol;
 
 import android.Manifest;
 import android.bluetooth.BluetoothAdapter;

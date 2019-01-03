@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="teddyng.warmbuddy">
+    package="teddyng.bluetoothcontrol">
 
     <uses-feature android:name="android.hardware.blueooth" />
     <uses-permission android:name="android.permission.BLUETOOTH" />
@@ -17,7 +17,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name="teddyng.bluetoothcontrol.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <action android:name="android.intent.action.VIEW" />
