@@ -1,4 +1,4 @@
-# WarmBuddy
+# Bluetooth-Control
 
 This project was conducted by Teddy Ng
 
