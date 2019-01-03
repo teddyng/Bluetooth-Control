@@ -126,6 +126,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         super.onDestroy();
         unregisterReceiver(mReceiver);
         unregisterReceiver(mReceiver2);
+        unregisterReceiver(mReceiver3);
         unregisterReceiver(mReceiver4);
         Log.d(TAG, "onDestroy: CALLED");
     }
